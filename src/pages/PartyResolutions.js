@@ -1,8 +1,8 @@
 import React from 'react';
 import DocumentCard from '../components/DocumentCard';
+import { ThumbsUp, ThumbsDown, Minus } from 'lucide-react';
 
 function PartyResolutions() {
-  // Update the resolutions array to include PDF filenames that match files in /src/pdfs
   const resolutions = [
     {
       id: 'res-001',
@@ -11,7 +11,12 @@ function PartyResolutions() {
       issuer: "",
       office: "",
       date: "",
-      pdfPath: "/pdfs/" // This should match a file in /src/pdfs
+      pdfPath: "/pdfs/", // This should match a file in /src/pdfs
+      votes: {
+        ayes: 0,
+        nays: 0,
+        abstains: 0
+      }
     },
   ];
 
@@ -22,7 +27,28 @@ function PartyResolutions() {
         {resolutions.map((resolution) => (
           <DocumentCard 
             key={resolution.id} 
-            document={resolution}
+            document={{
+              ...resolution,
+              VoteRecord: ({ votes }) => (
+                <div className="mt-3 p-2 bg-gray-50 rounded-lg">
+                  <h4 className="text-sm font-semibold text-gray-600 mb-2">Vote Record</h4>
+                  <div className="flex justify-between items-center">
+                    <div className="flex items-center gap-1">
+                      <ThumbsUp className="h-4 w-4 text-green-600" />
+                      <span className="text-sm text-gray-700">{votes.ayes}</span>
+                    </div>
+                    <div className="flex items-center gap-1">
+                      <ThumbsDown className="h-4 w-4 text-red-600" />
+                      <span className="text-sm text-gray-700">{votes.nays}</span>
+                    </div>
+                    <div className="flex items-center gap-1">
+                      <Minus className="h-4 w-4 text-yellow-600" />
+                      <span className="text-sm text-gray-700">{votes.abstains}</span>
+                    </div>
+                  </div>
+                </div>
+              )
+            }}
           />
         ))}
       </div>
