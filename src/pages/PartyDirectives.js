@@ -9,8 +9,17 @@ const PartyDirectives = () => {
       description: "Appointment to key positions within the Party",
       issuer: "Central Committee",
       office: "General Secretary of the Central Committee",
-      date: "2024-01-15",
+      date: "2024-11-02",
       pdfPath: "/pdfs/Central-Committee-of-the-Communist-Party-of-Ethiopia-Directive 01.pdf" // Changed from pdfUrl to pdfPath for consistency
+    },
+    {
+      id: 'dir-002',
+      title: " Creation of Committees & Responsibilities",
+      description: "Creating Committees to Lead our Party",
+      issuer: "Central Committee",
+      office: "General Secretary of the Central Committee",
+      date: "2024-11-02",
+      pdfPath: "/pdfs/Central-Committee-of-the-Communist-Party-of-Ethiopia _ DR.02.pdf" // Changed from pdfUrl to pdfPath for consistency
     },
     // Add more directives as needed
   ];
