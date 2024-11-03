@@ -3,7 +3,6 @@ import { FileText, Calendar, User, Building } from 'lucide-react';
 
 const DocumentCard = ({ document }) => {
   const handleReadClick = () => {
-    // Open PDF in new tab
     window.open(document.pdfPath, '_blank');
   };
 
@@ -38,6 +37,11 @@ const DocumentCard = ({ document }) => {
             </div>
           )}
         </div>
+
+        {/* Render vote record if available */}
+        {document.VoteRecord && document.votes && (
+          <document.VoteRecord votes={document.votes} />
+        )}
         
         <button
           onClick={handleReadClick}
