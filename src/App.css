@@ -1,10 +1,14 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: clamp(20vmin, 40vmin, 60vmin);
   pointer-events: none;
+  width: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -20,12 +24,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: clamp(14px, calc(10px + 2vmin), 24px);
   color: white;
+  padding: 1rem;
 }
 
 .App-link {
   color: #61dafb;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.App-link:hover {
+  opacity: 0.8;
 }
 
 @keyframes App-logo-spin {
@@ -34,5 +44,26 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .App-header {
+    padding: 0.5rem;
+  }
+}
+
+/* Touch device optimization */
+@media (hover: none) {
+  .App-link {
+    padding: 0.5rem;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .App-header {
+    background-color: #1a1d24;
   }
 }
