@@ -21,6 +21,15 @@ const PartyDirectives = () => {
       date: "2024-11-02",
       pdfPath: "/pdfs/Central-Committee-of-the-Communist-Party-of-Ethiopia _ DR.02.pdf" // Changed from pdfUrl to pdfPath for consistency
     },
+    {
+      id: 'dir-003',
+      title: "Form the Rules and Guidelines of the Party",
+      description: "Creating Committees to Lead our Party",
+      issuer: "Central Committee",
+      office: "General Secretary of the Central Committee",
+      date: "2024-11-03",
+      pdfPath: "/pdfs/Central Committee of the Communist Party of Ethiopia _ DR. 03.pdf" // Changed from pdfUrl to pdfPath for consistency
+    },
     // Add more directives as needed
   ];
 
