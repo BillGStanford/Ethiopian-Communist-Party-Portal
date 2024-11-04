@@ -6,14 +6,28 @@ function PartyResolutions() {
   const resolutions = [
     {
       id: 'res-001',
-      title: "None Currently Issued",
-      description: "",
-      issuer: "",
-      office: "",
-      date: "",
-      pdfPath: "/pdfs/", // This should match a file in /src/pdfs
+      title: "EN | PENDING: Rules and Guidelines of the Party",
+      description: "Form the Temporary Document that will Lead the Party",
+      issuer: "Central Committee",
+      office: "General Secretary",
+      date: "2024-11-03",
+      pdfPath: "/pdfs/Temporary Governing Document of Ethiopian Communist Party.pdf", // This should match a file in /src/pdfs
       votes: {
-        ayes: 0,
+        ayes: 1,
+        nays: 0,
+        abstains: 0
+      }
+    },
+    {
+      id: 'res-001',
+      title: "AM | PENDING: Rules and Guidelines of the Party",
+      description: "Form the Temporary Document that will Lead the Party",
+      issuer: "Central Committee",
+      office: "General Secretary",
+      date: "2024-11-03",
+      pdfPath: "/pdfs/Amharic _ Temporary Governing Document of Ethiopian Communist Party.pdf", // This should match a file in /src/pdfs
+      votes: {
+        ayes: 1,
         nays: 0,
         abstains: 0
       }
