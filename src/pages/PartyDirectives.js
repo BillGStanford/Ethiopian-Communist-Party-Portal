@@ -30,6 +30,24 @@ const PartyDirectives = () => {
       date: "2024-11-03",
       pdfPath: "/pdfs/Central Committee of the Communist Party of Ethiopia _ DR. 03.pdf" // Changed from pdfUrl to pdfPath for consistency
     },
+    {
+      id: 'dir-004',
+      title: "EN | Memberships Directive",
+      description: "Creating Committees to Lead our Party",
+      issuer: "Central Committee",
+      office: "General Secretary of the Central Committee",
+      date: "2024-11-03",
+      pdfPath: "/pdfs/Central Committee of the Communist Party of Ethiopia _ Directive No. 04.pdf" // Changed from pdfUrl to pdfPath for consistency
+    },
+        {
+      id: 'dir-005',
+      title: "AM | Memberships Directive",
+      description: "Creating Committees to Lead our Party",
+      issuer: "Central Committee",
+      office: "General Secretary of the Central Committee",
+      date: "2024-11-03",
+      pdfPath: "/pdfs/Amharic _ Central Committee of the Communist Party of Ethiopia _ Directive No. 04.pdf" // Changed from pdfUrl to pdfPath for consistency
+    },
     // Add more directives as needed
   ];
 
