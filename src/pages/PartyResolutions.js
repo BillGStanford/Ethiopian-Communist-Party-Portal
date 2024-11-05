@@ -6,7 +6,7 @@ function PartyResolutions() {
   const resolutions = [
     {
       id: 'res-001',
-      title: "EN | PENDING: Rules and Guidelines of the Party",
+      title: "EN | FINAL: Rules and Guidelines of the Party",
       description: "Form the Temporary Document that will Lead the Party",
       issuer: "Central Committee",
       office: "General Secretary",
@@ -20,7 +20,7 @@ function PartyResolutions() {
     },
     {
       id: 'res-001',
-      title: "AM | PENDING: Rules and Guidelines of the Party",
+      title: "AM | FINAL: Rules and Guidelines of the Party",
       description: "Form the Temporary Document that will Lead the Party",
       issuer: "Central Committee",
       office: "General Secretary",
