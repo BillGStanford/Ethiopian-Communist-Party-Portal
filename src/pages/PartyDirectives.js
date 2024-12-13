@@ -57,6 +57,15 @@ const PartyDirectives = () => {
       date: "2024-12-12",
       pdfPath: "/pdfs/EN_ Official Party Ideology.pdf" // Changed from pdfUrl to pdfPath for consistency
     },
+          {
+      id: 'dir-006',
+      title: "AH | ኦፊሴላዊ ፓርቲ ርዕዮተ ዓለም",
+      description: "Official Party Ideology",
+      issuer: "Central Committee",
+      office: "General Secretary of the Central Committee",
+      date: "2024-12-12",
+      pdfPath: "/pdfs/AH_ Official Party Ideology.pdf" // Changed from pdfUrl to pdfPath for consistency
+    },
     // Add more directives as needed
   ];
 
