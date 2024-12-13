@@ -15,7 +15,7 @@ const Sidebar = () => {
           {isHovered && (
             <div className="space-y-4">
               <a 
-                href="https://ethiopian-communist-party.vercel.app/" 
+                href="https://ecp-tau.vercel.app/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 text-white hover:text-yellow-300"
