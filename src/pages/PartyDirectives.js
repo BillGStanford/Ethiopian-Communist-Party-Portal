@@ -48,6 +48,15 @@ const PartyDirectives = () => {
       date: "2024-11-03",
       pdfPath: "/pdfs/Amharic _ Central Committee of the Communist Party of Ethiopia _ Directive No. 04.pdf" // Changed from pdfUrl to pdfPath for consistency
     },
+      {
+      id: 'dir-006',
+      title: "EN | Official Party Ideology",
+      description: "Official Party Ideology",
+      issuer: "Central Committee",
+      office: "General Secretary of the Central Committee",
+      date: "2024-12-12",
+      pdfPath: "/pdfs/EN_ Official Party Ideology.pdf" // Changed from pdfUrl to pdfPath for consistency
+    },
     // Add more directives as needed
   ];
 
