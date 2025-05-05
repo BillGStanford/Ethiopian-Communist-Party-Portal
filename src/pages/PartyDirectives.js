@@ -66,6 +66,26 @@ const PartyDirectives = () => {
       date: "2024-12-12",
       pdfPath: "/pdfs/AH_ Official Party Ideology.pdf" // Changed from pdfUrl to pdfPath for consistency
     },
+
+          {
+      id: 'dir-007',
+      title: "EN | Founding and First Congress of the Ethiopian Revolutionary Communist Party",
+      description: "Founding and First Congress of the Ethiopian Revolutionary Communist Party",
+      issuer: "Founding and First Congress of the Ethiopian Revolutionary Communist Party",
+      office: "Founding and First Congress of the Ethiopian Revolutionary Communist Party",
+      date: "2024-12-12",
+      pdfPath: "/pdfs/Founding and First Congress of the Ethiopian Revolutionary Communist Party (ERCP).pdf" // Changed from pdfUrl to pdfPath for consistency
+    },
+
+              {
+      id: 'dir-007',
+      title: "AH | የኢትዮጵያ አብዮታዊ ኮሚኒስት ፓርቲ (ኢአርሲፒ) ምስረታ እና የመጀመሪያ ኮንግረስ",
+      description: "የኢትዮጵያ አብዮታዊ ኮሚኒስት ፓርቲ (ኢአርሲፒ) ምስረታ እና የመጀመሪያ ኮንግረስ",
+      issuer: "Founding and First Congress of the Ethiopian Revolutionary Communist Party",
+      office: "Founding and First Congress of the Ethiopian Revolutionary Communist Party",
+      date: "2024-12-12",
+      pdfPath: "/pdfs/Founding and First Congress of the Ethiopian Revolutionary Communist Party (ERCP).pdf" // Changed from pdfUrl to pdfPath for consistency
+    },
     // Add more directives as needed
   ];
 
